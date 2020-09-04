@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">UwU Traveler</h2>
+                <p class="sub-heading">Holiday & Vacation</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="location">Hawai</h4>
+                <p class="item">only 200k</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="location">Bali</h4>
+                <p class="item">only 500k</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <span class="burger"></span>
+            </div>
+            <div class="brand"><h1>UwU Traveler</h1></div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <secion class="services">
+            <div class="service">
+                <div class="icon"><i class="fas fa fa-map-marked gradien"></i></div>
+                <h3>Destination</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis aperiam veritatis assumenda, temporibus minus!
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class="fas fa fa-podcast"></i></div>
+                <h3>Podcast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis aperiam veritatis assumenda, temporibus minus!
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class="fas fa fa-cloud-moon"></i></div>
+                <h3>Weather</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis aperiam veritatis assumenda, temporibus minus!
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon"><i class="fas fa fa-hamburger"></i></div>
+                <h3>Food </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis aperiam veritatis assumenda, temporibus minus!
+                </p>
+            </div>
+        </secion>
+
+        <section class="galeri">
+            <h2>Gallery</h2>
+                <div class="img"><img src="https://source.unsplash.com/random/601x401" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/602x402" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/603x403" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/604x404" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/605x405" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/606x406" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/607x407" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/608x408" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/609x409" alt=""></div>
+                <div class="img"><img src="https://source.unsplash.com/random/6010x4010" alt=""></div>
+        </section>
+    </div>
+        <footer>
+            <span><i class="fas fa fa-copyright"></i>2020|build by Tio Ramadhan</span>
+        </footer>
+
+    <!-- Js -->
+    <script>
+        const menu=document.querySelector('.menu-toggle');
+        const ul=document.querySelector('ul');
+
+        menu.addEventListener('click',function(){
+            menu.classList.toggle('open');
+            ul.classList.toggle('slide');
+        });
+
+    </script>
+    <script src="/js/all.js"></script>
+</body>
+</html>
